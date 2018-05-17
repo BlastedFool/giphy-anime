@@ -7,7 +7,7 @@ $(document).ready(function() {
     //first need function to GET attributes and display content with API key
     function displayInfo() {
         var anime = $(this).attr("anime-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + anime + "&api_key=0WQIgVLwDZvgxclg4Ru3xYNO3iwTQQCd&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + anime + "&api_key=0WQIgVLwDZvgxclg4Ru3xYNO3iwTQQCd&limit=10";
 
         //use AJAX to GET information on anime button clicked
 
