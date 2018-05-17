@@ -1,0 +1,84 @@
+.container {
+	background-color: #70fffd;
+	color: #7075ff;
+}
+
+body{
+
+    background-color: purple;
+
+
+}
+
+html {
+	border: 10px solid;
+    border-top-color: blue;
+    border-bottom-color: red;
+    border-right-color: paleturquoise;
+    border-left-color: mediumslateblue;
+	min-height: 100%;
+}
+#animefavorites {
+	font-style: italic;
+	font-size: 36px;
+}
+
+.container {
+	opacity: 1;
+	margin-left: 35px;
+}
+
+button {
+    margin: 5px;
+    background-color: #b4abeb;
+    color: black;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #ff9814;
+    border-radius: 5px;
+}
+
+#anime-input-box {
+	float: right;
+	padding-right: 10%;
+}
+
+label {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+#add-anime {
+	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #ff3679;
+	color: white;
+}
+
+#anime-input {
+	margin-top: 10px;
+	height: 20px;
+}
+
+#animeview {
+	margin-top: 10px;
+	margin-right: 25%;
+}
+
+.animepictures {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	margin-top: 5px;
+    margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a8a3ff;
+}
