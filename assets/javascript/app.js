@@ -99,7 +99,7 @@ $(document).ready(function() {
         var animes = $("#anime-input").val().trim();
 
         //push input to original topics array and then rerun render of buttons to show newly added button.
-        anime.push(animes);
+        animeTitles.push(animes);
             $("#anime-input").val(" ");
         renderButtons();
     });
